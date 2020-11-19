@@ -47,9 +47,9 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing.
-                Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images.
-                Representative papers are <span class="highlight">highlighted</span>.
+                I'm interested in realizing human-like dynamic motion for robots.
+                Much of my research is about using machine learning, optimization and control algorithms 
+                to enable robots to reliably interact with the  physical world.
               </p>
             </td>
           </tr>
@@ -57,46 +57,44 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr onmouseout="roughT_stop()" onmouseover="roughT_start()" >
+            <td style="padding:20px;width:35%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='lssr_image'>
-                  <img src='images/lssr_after.jpg' width="160"></div>
-                <img src='images/lssr_before.jpg' width="160">
+                <div class="two" id='roughT'><img src="data/CORL/CORL.gif" width="252" height="168"></div>
+                <img src="data/CORL/CORLpic.gif" width="252" height="168">
               </div>
               <script type="text/javascript">
-                function lssr_start() {
-                  document.getElementById('lssr_image').style.opacity = "1";
+                function roughT_start() {
+                  document.getElementById('roughT').style.opacity = "1";
                 }
 
-                function lssr_stop() {
-                  document.getElementById('lssr_image').style.opacity = "0";
+                function roughT_stop() {
+                  document.getElementById('roughT').style.opacity = "0";
                 }
-                lssr_stop()
+                roughT_stop()
               </script>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2010.08888">
-                <papertitle>Light Stage Super-Resolution: Continuous High-Frequency Relighting</papertitle>
-              </a>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <papertitle>Robust Quadrupedal Locomotion on Sloped Terrains: A Linear Policy Approach</papertitle>
               <br>
-              <a href="http://kevinkingo.com/">Tiancheng Sun</a>,
-              <a href="https://cseweb.ucsd.edu/~zex014/">Zexiang Xu</a>
-              <a href="http://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
-              <a href="http://www.seanfanello.it/">Sean Fanello</a>,
-              <a href="https://scholar.google.com/citations?user=5D0_pjcAAAAJ&hl=en">Christoph Rhemann</a>,
-              <a href="https://www.pauldebevec.com/">Paul Debevec</a>,
-              <a href="https://research.google/people/105312/">Yun-Ta Tsai</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>
+              <a href="">Kartik Paigwar</a>,
+              <a href="">Lokesh Krishna</a>,
+              <strong>Sashank Tirumala</strong>,
+              <a href="">Naman khetan</a>,
+              <a href="">Aditya Sagi</a>,
+              <a href="">Ashish Joglekar</a>,
+              <a href="">Shalabh Bhatnagar</a>,
+              <a href="">Ashitava Ghosal</a>,
+              <a href="">Bharadwaj Amrutur</a>,
+              <a href="">Shishir Kolathaya</a>
               <br>
-              <em>SIGGRAPH Asia</em>, 2020  
+              <em>4th Conference on Robot Learning <a href="https://www.robot-learning.org/"> (CoRL 2020)</a>, MIT, USA </em>
               <br>
-              <a href="https://arxiv.org/abs/2010.08888">arXiv</a>
-              <p></p>
-              <p>
-                Scans for light stages are inherently aliased, but we can use learning to super-resolve them.
-              </p>
+              <a href="https://arxiv.org/abs/2010.16342">arXiv</a> /
+              <a href="https://stochlab.github.io/projects/slope.html">project page</a> /
+              <a href="https://github.com/StochLab/SlopedTerrainLinearPolicy">github</a> /
+              <a href="https://youtu.be/KdQn1e3rI7o">video</a>
+              <p> Simple Linear Policies to realize rough terrain locomotion on quadruped robots</p>
             </td>
           </tr> 
 
