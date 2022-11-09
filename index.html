@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>Sashank Tirumala</title>
+  <title>Soumith Udatha</title>
   
   <meta name="author" content="Soumith Udatha">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,18 +22,18 @@
               </p>
               <p>I am a second year Masters' Research Student at <a href="http://www.ri.cmu.edu">Carnegie Mellon University</a>, where I work on bridging the gaps for applying Reinforcement Learning to the systems in the real world. I finished my undergraduate studies in Mechanical Engineering from the Indian Institute of Technology, Bombay(IIT Bombay).
               </p>
-              <p>
+<!--               <p>
                 Previously I have interned at Indian Institute of Sciences, Bangalore, where I worked on <a href="https://stochlab.github.io/projects/Augmented%20Random%20Search.html">Imitation Learning</a>, <a href="https://stochlab.github.io/projects/Augmented%20Random%20Search.html">Reinforcement Learning and </a> 
                 , <a href="https://stochlab.github.io/projects/slope.html"> Quadrupedal Locomotion</a> under the guidance of <a href="https://shishirny.github.io/">Shishir Kolathaya</a> and <a href="https://aml.ece.iisc.ac.in/index.php/Bharadwaj_Amrutur">Bharadwaj Amrutur</a>.
                 I've received the <a href="https://www.iitm.ac.in/recognitions/student-awards">Srikanth Sundarajan Award</a>, <a href="https://www.iitm.ac.in/recognitions/student-awards">Ms Latha & Sampath Srinath Prize	</a>, 
                 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6495676923740553216">Mercedes Benz Drive Challenge Winner</a>,
                 <a href="https://www.linkedin.com/posts/vivek-muralidharan-3536a416_fiction2science-f2s-freedomtoact-activity-6610738955337981952-o5y8">Continental Fiction2Science Challenge Winner</a>
                  and the FIITJEE Scholarship Award.
-              </p>
+              </p> -->
               <p style="text-align:center">
-                <a href="mailto:stsashank6@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="mailto:soumith0602@gmail.com">Email</a> &nbsp/&nbsp
                 <a href="data/Sashank_CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=xwNzYpgAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+<!--                 <a href="https://scholar.google.com/citations?user=xwNzYpgAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp -->
                 <a href="https://www.linkedin.com/in/sashank-tirumala-619395145/">LinkedIn</a>
               </p>
             </td>
@@ -47,9 +47,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in realizing human-like dynamic motion for robots.
-                Much of my research is about using machine learning, optimization and control algorithms 
-                to enable robots to reliably interact with the  physical world.
+                I'm interested in implementing Reinforcement Learning agents for applications in the real world. Making RL agents use data and representations in the world effectively is a higher level objective. Some of the applications I am currently looking at include RL agents for Autonomous Driving Scenarios, Goal-Conditioned RL for D4RL environments and CARLA Autonomous Driving challenges and in building co-operative agents for Human-Agent Collaboration tasks.
               </p>
             </td>
           </tr>
@@ -75,27 +73,22 @@
               </script>
             </td>
             <td style="padding:20px;width:65%;vertical-align:middle">
-              <papertitle>Robust Quadrupedal Locomotion on Sloped Terrains: A Linear Policy Approach</papertitle>
+              <papertitle>Imitating Past Successes can be Very Suboptimal</papertitle>
               <br>
-              <a href="">Kartik Paigwar</a>,
-              <a href="">Lokesh Krishna</a>,
-              <strong>Sashank Tirumala</strong>,
-              <a href="">Naman khetan</a>,
-              <a href="">Aditya Sagi</a>,
-              <a href="">Ashish Joglekar</a>,
-              <a href="">Shalabh Bhatnagar</a>,
-              <a href="">Ashitava Ghosal</a>,
-              <a href="">Bharadwaj Amrutur</a>,
-              <a href="">Shishir Kolathaya</a>
+              <a href="">Ben Eysenbach</a>,
+              <strong>Soumith Udatha</strong>,
+              <a href="">Sergey Levine</a>,
+              <a href="">Ruslan Salakhutdinov</a>,
               <br>
-              <em>4th Conference on Robot Learning <a href="https://www.robot-learning.org/"> (CoRL 2020)</a>, MIT, USA </em>
+              <em>36th Conference on Neural Information Processing Systems <a href="https://nips.cc/"> (NeurIPS 2022)</a>, New Orleans, USA </em>
               <br>
-              <a href="https://arxiv.org/abs/2010.16342">arXiv</a> /
+              <a href="https://arxiv.org/abs/2206.03378">arXiv</a> /
               <a href="https://stochlab.github.io/projects/slope.html">project page</a> /
-              <a href="https://github.com/StochLab/SlopedTerrainLinearPolicy">github</a> /
-              <a href="https://youtu.be/KdQn1e3rI7o">video</a>
-              <p> Developed simple linear policies with reinforcement learning
-                 to realize rough terrain locomotion on quadruped robots.</p>
+<!--               <a href="https://github.com/StochLab/SlopedTerrainLinearPolicy">github</a> / -->
+              <a href="https://www.youtube.com/watch?v=bXnnU68HYQA">video</a>
+              <p>One seemingly-simple way of doing RL is to do imitation learning on successful trajectories, and prior methods like goal-conditioned imitation learning use this to great effect. 
+                For draw a connection between these prior methods and reward maximization, showing that these prior methods do not quite correspond to reward maximization, and actually get be worse than doing nothing. 
+                Our analysis suggests a simple fix.</p>
             </td>
           </tr> 
 
@@ -117,20 +110,14 @@
               </script>
             </td>
             <td style="padding:20px;width:65%;vertical-align:middle">
-              <papertitle>Learning Stable Manoeuvres in Quadruped Robots from Expert Demonstrations
+              <papertitle>Safe Reinforcement Learning for Ramp Merging with Probabilistically Safe Control Barrier Functions
               </papertitle>
               <br>
-              <strong>Sashank Tirumala</strong>,
-              <a href="">Sagar Gubbi</a>,
-              <a href="">Kartik Paigwar</a>,
-              <a href="">Aditya Sagi</a>,
-              <a href="">Ashish Joglekar</a>,
-              <a href="">Shalabh Bhatnagar</a>,
-              <a href="">Ashitava Ghosal</a>,
-              <a href="">Bharadwaj Amrutur</a>,
-              <a href="">Shishir Kolathaya</a>
+              <strong>Soumith Udatha</strong>,
+              <a href="">Yiwei Lyu</a>,
+              <a href="">John Dolan</a>,
               <br>
-              <em>29th International Conference on Robot and Human Interactive Communication <a href="http://ro-man2020.unina.it/"> (RoMan 2020)</a>, Naples, Italy </em>
+              <em>39th International Conference on Machine Learning <a href="https://icml.cc/Conferences/2022/Schedule?type=Workshop"> (ICML 2022)</a>,Baltimore, USA </em>
               <br>
               <a href="https://arxiv.org/abs/2007.14290">arXiv</a> /
               <a href="https://stochlab.github.io/projects/Augmented%20Random%20Search.html">project page</a> /
@@ -160,25 +147,20 @@
               </script>
             </td>
             <td style="padding:20px;width:65%;vertical-align:middle">
-              <papertitle>Gait Library Synthesis for Quadruped Robots via Augmented Random Search</papertitle>
+              <papertitle>A novel foot interface versus voice for controlling a robotic endoscope holder</papertitle>
               <br>
-              <strong>Sashank Tirumala</strong>,
-              <a href="">Aditya Sagi</a>,
-              <a href>Kartik Paigwar</a>,
-              <a href="">Ashish Joglekar</a>,
-              <a href="">Shalabh Bhatnagar</a>,
-              <a href="">Ashitava Ghosal</a>,
-              <a href="">Bharadwaj Amrutur</a>,
-              <a href="">Shishir Kolathaya</a>
+              <a href="">Yanjun Yang</a>
+              <strong>Soumith Udatha</strong>,
+              <a href>Dana Kulic</a>,
+              <a href="">Elahe Abdi</a>,
               <br>
               <em>arXiv, 2019</em>
               <br>
-              <a href="https://arxiv.org/abs/1912.12907">arXiv</a> /
-              <a href="https://github.com/sashank-tirumala/pybRL">github</a> /
+              <a href="https://arxiv.org/abs/1912.12907">paper</a> /
+<!--               <a href="https://github.com/sashank-tirumala/pybRL">github</a> / -->
               <a href="https://www.youtube.com/watch?v=3BQYX2vZdAg&t=92s">video</a>
               <p></p>
-              <p>Provides techniques to bridge the sim-to-real gap and quickly learn locomotive policies
-                for quadruped robots. 
+              <p>An ergonomocal and intuitive foot interface for assisted robotic surgeries. 
               </p>
             </td>
           </tr> 
